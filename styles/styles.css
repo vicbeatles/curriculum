@@ -1,0 +1,91 @@
+body {
+    background-color: gray;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+@media screen and (min-width: 1024px) {
+    body {  
+        padding: 0 20%;
+    }
+}
+
+.main {
+    display: flex;
+}
+
+.personal-data {
+    background-color: rgb(245, 212, 199);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.profile-data {
+    background-color: white;
+    margin-left: 1px;
+    
+}
+
+.info {
+    padding: 15px;
+}
+
+.personal-photo {
+
+    position: relative;
+    width: 100px;
+    height:100px;
+    left: 30%;
+    background-image:url("../images/profile.jpeg");
+    background-size:cover;
+    background-color: transparent;
+    background-position: center;
+    
+
+}
+
+.titles {
+    background-color: rgb(41, 39, 48);
+    color: white;
+    padding: 5px;
+    font-size:14pt;
+}
+
+.personal-text {
+    padding: 15px;
+    text-align: justify;
+}
+
+.name-text {
+
+    background-color:rgb(41, 39, 48);
+    color: rgb(236, 227, 238);
+    padding: 20px 10px;
+    text-align: center;
+    
+}
+
+.name-text h1 {
+    margin: 0;
+}
+
+.name-text a {
+    text-decoration: none;
+    color: white;
+}
+
+.name-company {
+    font-weight: 700;
+}
+
+.company-title {
+    font-weight:400;
+    font-style: italic;
+    color: gray;
+}
+
+.job-description {
+    text-align: justify;
+}
