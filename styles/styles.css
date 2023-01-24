@@ -1,5 +1,5 @@
 body {
-    background-color: gray;
+    background-color: white;
     margin: 0;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -25,7 +25,6 @@ body {
 .profile-data {
     background-color: white;
     margin-left: 1px;
-    
 }
 
 .info {
@@ -35,15 +34,15 @@ body {
 .personal-photo {
 
     position: relative;
-    width: 100px;
-    height:100px;
-    left: 30%;
+    border-radius: 100px;
+    border: 10px solid rgb(41, 39, 48);
+    width: 200px;
+    height:200px;
+    left: 5%;
     background-image:url("../images/profile.jpeg");
     background-size:cover;
     background-color: transparent;
     background-position: center;
-    
-
 }
 
 .titles {
@@ -72,8 +71,9 @@ body {
 }
 
 .name-text a {
-    text-decoration: none;
+    
     color: white;
+    font-style: italic;
 }
 
 .name-company {
