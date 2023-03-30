@@ -11,6 +11,8 @@ body {
     }
 }
 
+
+
 .main {
     display: flex;
 }
@@ -34,7 +36,7 @@ body {
 .personal-photo {
 
     position: relative;
-    border-radius: 100px;
+    border-radius: 150px;
     border: 10px solid rgb(41, 39, 48);
     width: 200px;
     height:200px;
@@ -89,3 +91,13 @@ body {
 .job-description {
     text-align: justify;
 }
+
+@media print {
+
+    .personal-photo {
+ 
+     width: 175px;
+     height: 175px;
+     
+    }
+ }
